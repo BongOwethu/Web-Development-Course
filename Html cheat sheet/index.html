@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML cheat sheet</title>
+</head>
+<body>
+    <!--Headings-->
+    <h1>Heading One</h1>
+    <h2>Heading Two</h2>
+    <h3>Heading Three</h3>
+    <h4>Heading Four</h4>
+    <h5>Heading Five</h5>
+    <h6>Heading Six</h6>
+
+    <!--Paragraph-->
+    <p>Lorem ipsum dolor sit amet. <strong>Strong makes the line bold</strong>. C  onsectetur adipisicing elit. <em> This is for emphasis making it italic</em>Doloribus veritatis molestiae blanditiis facere aut ratione illo, tenetur nobis possimus, culpa sequi ipsum modi eum corporis architecto. Culpa non animi consectetur!</p>
+    
+    <a href="https=freecodecamp.co.za "></a>
+    
+    <!--Lists-->
+    <ul> <!--This is an unordered list(uses bullet points)-->
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+    </ul>
+    <ol> <!--This is an ordered list(numbered list)-->   
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+    </ol>
+
+    <!--Tables-->
+    <table>
+        <thead><!--Table head: the headings of each column-->
+           <tr><!--Table row-->
+                <th>Name<!--Table heading--></th>
+                <th>Email</th>
+                <th>Age</th>
+           </tr>
+        </thead>
+        <tbody><!--Table body-->
+            <tr><!--Table data for each column-->
+                <td> Mandisa Shange</td>
+                <td>mandisa@gmail.com</td>
+                <td>23</td>
+            </tr>
+            <tr><!--Table data for each column-->
+                <td> Neo Makutu</td>
+                <td>nmakutu@outlook.com</td>
+                <td>34</td>
+            </tr>
+            <tr><!--Table data for each column-->
+                <td> Menzi Shange</td>
+                <td>menzi12@yahoo.com</td>
+                <td>13</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br><!--Line break-->
+    <hr><!--Horizontal ruler-->
+    <br>
+
+    <!--Forms-->
+    <form action="process.php" method="POST">
+        <div><!--Puts label on next line-->
+            <label>First Name</label>
+            <input type="text" name="firstName" placeholder="Enter first name"><!--Where the input will be & (placeholder) has text inside that disappears when you type-->
+        </div>
+        <br>
+        <div>
+            <label>Last Name</label>
+            <input type="text" name="lastName"placeholder="Enter last name">
+        </div>
+        <br>
+        <div>
+            <label>Email</label>
+            <input type="text" name="email ">
+        </div>
+        <br>
+        <div>
+            <label>Message</label>
+            <textarea name="message"></textarea><!--Makes the (textarea)box bigger-->
+        </div>
+        <br>
+        <div>
+            <label>Gender</label><!--Makes you to be able to select options.  Remember to pout options inside select :)-->
+            <select name="gender" >
+                <option value="male">Male</option><!--Makes you to be able to create options-->
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <br>
+            <div>
+                <label>Age</label><!--Makes you to be able to create numbers-->
+                <input type="number" name="age" value="30">
+            </div> 
+        <br>
+        <div>
+            <label>Birthday</label><!--Displays date-->
+            <input type="date" name="birthday">
+        </div>
+        <br>
+        <input type="submit" name="submit" value="Submit"><!--Creates submit button-->
+        <br>
+    </form>
+    <br>
+
+    <!--Buttons-->
+    <button>Click ME!</button>
+    <br>
+    <hr>
+
+    <!--Image-->
+    <img src="images/planet.jpeg" alt="My Sample Image" width="200"><!--Remember to put the correct picture type eg. png,jpeg,jpg .ect-->
+    <!--Image using a link-->
+    <a href="images/instrument.gif">
+        <img src="images/instrument.gif" alt="My Sample Image link" width="200">
+    </a>
+
+    <!--Quotations-->
+    <blockquote cite="http://knowyourwork.com">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos architecto voluptatibus totam praesentium laudantium nihil ab voluptate consectetur. Asperiores optio assumenda libero error nam modi voluptate iste dicta, veniam aliquam.
+
+    </blockquote>
+    
+    <p>The <abbr title="World wide web">WWW</abbr> is awesome</p>
+    <p><cite>This is a cheat sheet for HTML by Brad Traversy</cite></p>
+</body>
+</html>
