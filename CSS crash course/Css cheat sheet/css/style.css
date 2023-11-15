@@ -1,0 +1,197 @@
+/*
+*{
+    -make everything a set default
+    margin:0;
+    padding:0;
+}
+*/
+
+body{
+    background-color: #f4f4f4;
+    color: #555555;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;/* how the font must look like    bold,italic*/
+    /* Same as above
+    font: normal 14px Arial,Helvetica,sans-serif;*/
+    line-height: 1.6em; /* space between words*/
+    margin: 0;
+} 
+a{
+    
+    text-decoration:none ;
+    color: #000 ;
+}
+a:hover{
+    /* This makes all the a tags in the category list glow red when on them*/
+    color: red;
+}
+a:active{
+    /* This makes it turn green when you click on it*/
+    color:green;
+}
+.container{
+    /*width: 500px ;  -how wide you want the container to be*/
+    width: 80%; /*makes the width responsive to size change*/
+    margin: auto; /* automatically sets margins/spacing of container*/
+
+}
+
+.button{
+    /* by putting button at the top we make it global*/
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+}
+.button:hover{
+    background:purple;
+    color: #fff;   
+}
+.clr{
+    clear: both;
+}
+/* to access the box class use .name */
+.box-1{ 
+    background-color: #333; /* color of box outside*/
+    color: #fff; /* color of words in box*/
+    border-right: 5px red solid;
+    border-left: 5px green solid;
+    border-top: 5px blue solid;
+    border-bottom: 5px yellow solid;
+    /* if you want a solid borderline on all sides
+    border: 5px red solid  this is short hand for the whole border
+    */
+    border-top-width: 10px;
+    border-bottom-style: dotted;
+
+    /* inside of contents*/
+    padding-top: 12px  ;
+
+    /* outside of contents*/
+    margin-top: 20px;
+    margin: 20px 0; /* top and bottom is 20px,left and right is 0px */
+}
+
+.box-1 h1{
+    font-family: Tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em ;
+}
+
+.box-2{
+    border:3px dotted #ccc;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.categories{
+    border: 1px #ccc solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    padding: 0;
+    padding-left: 20px;
+    list-style: square;
+    list-style: none;
+}
+
+.categories li{
+    padding-bottom: 6px;
+    border-bottom: dotted 1px #333;
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.my-form .form-group{
+    padding-right: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"],.my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+.block{
+    float:left;
+    width: 33.3%;
+    border:1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box ; /* This makes sure the 3 headings fit with the padding */
+
+}
+
+#main-block{
+    float:left;
+    width: 30%;
+    padding:15px;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    float:right;
+    width:30%;
+    background-color: #333;
+    color: #fff;
+    padding:15px;
+    box-sizing: border-box;
+}
+
+.p-box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid #000;
+    margin-top:30px;
+    position:relative;
+    background-image: url(../images/png_20220716_120709_0000.png);
+}
+
+.p-box h1{
+    position:absolute;
+    top:100px;
+    left:200px;
+}
+
+.p-box h2{
+    position:absolute;
+    bottom:40px;
+    right:100px;
+}
+
+.fix-me{
+    position:fixed;
+    top:400px;
+}
+/*Psudo elements*/
+.my-list li:first-child{
+    background: red;
+}
+
+.my-list li:last-child{
+    background: blue;
+}
+
+.my-list li:nth-child(5){
+    background: green;
+}
+
+.my-list li:nth-child(even){
+    background: grey;
+}
