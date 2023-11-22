@@ -8,7 +8,7 @@ element is the best semantic match for each chunk of content.
 Here,You’ll use paragraphs,headings, lists, and at least one special content element.
 
 ---
-*I am using the book:*
+> *I am using the book:*
 ***Learning Web Design, Fifth Edition
 A Beginner’s Guide to HTML, CSS, JavaScript, and Web Graphics
 by Jennifer Niederst Robbins
