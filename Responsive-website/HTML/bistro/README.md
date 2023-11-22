@@ -1,7 +1,7 @@
-# Black Goose Bistro :chicken:
+# Black Tour Bistro 🚌
 :smile:***This is my first simple website*** :smile:
 ### Case study
-- The owners of the Black Goose Bistro have decided that they want a webite and to share recipes and news on their
+- The owners of the Black Tour Bistro have decided that they want a webite and to share recipes and news on their
 site. In the exercises in this chapter, we’ll assist them with content markup.
 In this exercise, you will find the raw text of a recipe. It’s up to you to decide which
 element is the best semantic match for each chunk of content. 
